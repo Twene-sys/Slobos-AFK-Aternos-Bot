@@ -6,16 +6,16 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "Twene-WdJa.aternos.me",
+    "port": 56856,
     "version": "",
     "try-creative": false
   },
   "position": {
     "enabled": true,
-    "x": 0,
+    "x": 11100,
     "y": 100,
-    "z": 0
+    "z": 200000
   },
   "utils": {
     "auto-auth": {
@@ -42,11 +42,9 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "enabled": false
     },
     "look-around": {
       "enabled": true,
@@ -65,8 +63,8 @@
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": false,
